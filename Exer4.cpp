@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 int find_Oddeven(int);
 int main()
@@ -8,7 +7,6 @@ int main()
     cout << "Enter a number to ceck odd or even" << endl;
     cin>>num;
     find_Oddeven(num);
-    getch();
     return 0;
 }
 
